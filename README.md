@@ -14,9 +14,9 @@ AI-powered customer churn prediction system that identifies at-risk customers be
 
 | Name | ID | Role |
 |------|----|------|
-| Student 1 | XXXXX | Data Scientist |
-| Student 2 | XXXXX | Business Analyst |
-| Student 3 | XXXXX | Data Engineer / Scrum Master |
+| Gader| XXXXX | Data Scientist |
+| hadeel|2230004733| Business Analyst |
+| maha| XXXXX | Data Engineer / Scrum Master |
 
 **Supervisor:** Dr. [Name]
 
@@ -90,5 +90,5 @@ python run_sprint1.py
 
 ## License
 
-Academic project – Imam Abdulrahman Bin Faisal University, MIS Department.  
+Academic project – Imam Abdulrahman Bin Faisal University, BIS Department.  
 Dataset: [CC0 Public Domain](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset)
