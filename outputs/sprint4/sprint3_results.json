@@ -1,0 +1,77 @@
+{
+  "sample_size": 50000,
+  "train_size": 35020,
+  "test_size": 7500,
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.8263,
+      "roc_auc": 0.9006,
+      "f1_score": 0.8363,
+      "precision": 0.8767,
+      "recall": 0.7995
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9293,
+      "roc_auc": 0.9535,
+      "f1_score": 0.9394,
+      "precision": 0.8971,
+      "recall": 0.9858,
+      "train_time_sec": 6.7
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.9255,
+      "roc_auc": 0.9536,
+      "f1_score": 0.9357,
+      "precision": 0.8983,
+      "recall": 0.9762,
+      "train_time_sec": 1.7
+    },
+    {
+      "model": "LightGBM",
+      "accuracy": 0.9245,
+      "roc_auc": 0.9536,
+      "f1_score": 0.9348,
+      "precision": 0.8984,
+      "recall": 0.9743,
+      "train_time_sec": 2.6
+    }
+  ],
+  "best_model": "XGBoost",
+  "best_roc_auc": 0.9536,
+  "best_feature_importances": {
+    "Age": 0.08520814776420593,
+    "Gender": 0.05348033457994461,
+    "Tenure": 0.02416575327515602,
+    "Usage Frequency": 0.019729353487491608,
+    "Support Calls": 0.2626945674419403,
+    "Payment Delay": 0.13511894643306732,
+    "Subscription Type": 0.018769273534417152,
+    "Contract Length": 0.23033984005451202,
+    "Total Spend": 0.11626721173524857,
+    "Last Interaction": 0.05422661453485489
+  },
+  "rf_params": {
+    "n_estimators": 200,
+    "max_depth": 12,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt"
+  },
+  "xgb_params": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "lgb_params": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "num_leaves": 63,
+    "subsample": 0.8
+  }
+}
