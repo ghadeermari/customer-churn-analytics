@@ -1,0 +1,86 @@
+=================================================================
+BUSINESS INSIGHTS REPORT - SPRINT 1
+Customer Churn Analytics Project
+Generated: 2026-02-19 20:37
+=================================================================
+
+1. OVERVIEW
+   Total Customers: 440,832
+   Churned:         249,999 (56.7%)
+   Retained:        190,833 (43.3%)
+
+2. CHURN DRIVERS BY CATEGORY
+
+   Contract Length:
+     Monthly              -> 100.0% churn
+     Annual               -> 46.08% churn
+     Quarterly            -> 46.03% churn
+
+   Subscription Type:
+     Basic                -> 58.18% churn
+     Standard             -> 56.07% churn
+     Premium              -> 55.94% churn
+
+   Gender:
+     Female               -> 66.67% churn
+     Male                 -> 49.13% churn
+
+3. NUMERIC FEATURE COMPARISON (Churned vs Retained)
+
+   Age:
+     Churned avg:  41.75
+     Retained avg: 36.26
+     Difference:   5.48
+
+   Tenure:
+     Churned avg:  30.47
+     Retained avg: 32.28
+     Difference:   -1.81
+
+   Usage Frequency:
+     Churned avg:  15.46
+     Retained avg: 16.26
+     Difference:   -0.8
+
+   Support Calls:
+     Churned avg:  5.14
+     Retained avg: 1.59
+     Difference:   3.56
+
+   Payment Delay:
+     Churned avg:  15.22
+     Retained avg: 10.02
+     Difference:   5.2
+
+   Total Spend:
+     Churned avg:  541.29
+     Retained avg: 749.95
+     Difference:   -208.67
+
+   Last Interaction:
+     Churned avg:  15.6
+     Retained avg: 13.01
+     Difference:   2.6
+
+4. RISK SEGMENTATION BY SUPPORT CALLS
+   Segment                 Total  Churned     Rate    Avg $
+   -------------------------------------------------------
+   Low (0-2)             205,922   63,259   30.72% $ 680.38
+   Medium (3-5)          116,397   68,227   58.62% $ 628.31
+   High (6-7)             47,424   47,424   100.0% $ 549.85
+   Critical (8-10)        71,089   71,089   100.0% $ 550.32
+
+5. KEY INSIGHTS FOR STAKEHOLDERS
+   - Support Calls is the strongest churn predictor
+   - Usage Frequency strongly differentiates churners from retained
+   - Contract Length and Subscription Type show similar churn rates
+   - Last Interaction recency matters: churners have fewer recent days
+   - Total Spend is lower for churners, indicating value perception
+
+6. RECOMMENDATIONS
+   - Implement proactive outreach for customers with 5+ support calls
+   - Create engagement programs to boost usage frequency
+   - Offer retention incentives to low-spend, high-support-call customers
+   - Monitor last interaction gaps and trigger re-engagement campaigns
+
+=================================================================

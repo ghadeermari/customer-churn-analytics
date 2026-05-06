@@ -1,0 +1,81 @@
+{
+  "churn_drivers": {
+    "Contract Length": {
+      "Annual": 46.08,
+      "Monthly": 100.0,
+      "Quarterly": 46.03
+    },
+    "Subscription Type": {
+      "Basic": 58.18,
+      "Premium": 55.94,
+      "Standard": 56.07
+    },
+    "Gender": {
+      "Female": 66.67,
+      "Male": 49.13
+    }
+  },
+  "numeric_patterns": {
+    "Age": {
+      "churned_mean": 41.75,
+      "retained_mean": 36.26,
+      "difference": 5.48
+    },
+    "Tenure": {
+      "churned_mean": 30.47,
+      "retained_mean": 32.28,
+      "difference": -1.81
+    },
+    "Usage Frequency": {
+      "churned_mean": 15.46,
+      "retained_mean": 16.26,
+      "difference": -0.8
+    },
+    "Support Calls": {
+      "churned_mean": 5.14,
+      "retained_mean": 1.59,
+      "difference": 3.56
+    },
+    "Payment Delay": {
+      "churned_mean": 15.22,
+      "retained_mean": 10.02,
+      "difference": 5.2
+    },
+    "Total Spend": {
+      "churned_mean": 541.29,
+      "retained_mean": 749.95,
+      "difference": -208.67
+    },
+    "Last Interaction": {
+      "churned_mean": 15.6,
+      "retained_mean": 13.01,
+      "difference": 2.6
+    }
+  },
+  "support_segments": {
+    "Low (0-2)": {
+      "total": 205922,
+      "churned": 63259,
+      "churn_rate": 30.72,
+      "avg_spend": 680.38
+    },
+    "Medium (3-5)": {
+      "total": 116397,
+      "churned": 68227,
+      "churn_rate": 58.62,
+      "avg_spend": 628.31
+    },
+    "High (6-7)": {
+      "total": 47424,
+      "churned": 47424,
+      "churn_rate": 100.0,
+      "avg_spend": 549.85
+    },
+    "Critical (8-10)": {
+      "total": 71089,
+      "churned": 71089,
+      "churn_rate": 100.0,
+      "avg_spend": 550.32
+    }
+  }
+}
